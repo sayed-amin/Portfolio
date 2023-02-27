@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cars</title>
+	<style>
+		body {
+			background-color: #f0f0f0;
+			font-family: Arial, sans-serif;
+		}
+
+		h1 {
+			color: #333;
+			text-align: center;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		.car {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 20px 0;
+			padding: 20px;
+			background-color: white;
+			border-radius: 5px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+		}
+
+		.car img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		.car h2 {
+			margin-top: 10px;
+			color: #333;
+			font-size: 24px;
+			text-align: center;
+		}
+
+		.car p {
+			margin-top: 10px;
+			color: #666;
+			font-size: 16px;
+			text-align: center;
+		}
+
+		.car a {
+			display: inline-block;
+			margin-top: 10px;
+			padding: 10px 20px;
+			background-color: #333;
+			color: white;
+			text-decoration: none;
+			border-radius: 5px;
+			transition: background-color 0.2s;
+		}
+
+		.car a:hover {
+			background-color: #444;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Cars</h1>
+		<div class="car">
+			<img src="car1.jpg" alt="Car 1">
+			<h2>Car 1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel malesuada magna. Donec rhoncus felis ac leo dignissim, non commodo ipsum semper.</p>
+			<a href="#">View details</a>
+		</div>
+		<div class="car">
+			<img src="car2.jpg" alt="Car 2">
+			<h2>Car 2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel malesuada magna. Donec rhoncus felis ac leo dignissim, non commodo ipsum semper.</p>
+			<a href="#">View details</a>
+		</div>
+		<div class="car">
+			<img src="car3.jpg" alt="Car 3">
+			<h2>Car 3</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel malesuada magna. Donec rhoncus felis ac leo dignissim, non commodo ipsum semper.</p>
+			<a href="#">View details</a>
+		</div>
+	</div>
+</body>
+</html>
